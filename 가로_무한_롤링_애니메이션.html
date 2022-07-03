@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<style>
+    /* **************************************** *
+ * MOTION
+ * **************************************** */
+    /* MARQUEE */
+    .jumbo_marquee_wrap {
+        overflow: hidden;
+    }
+
+    .jumbo_marquee {
+        white-space: nowrap;
+        line-height: 1;
+    }
+
+    .jumbo_marquee_el>span {
+        display: inline-block;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-name: Marquee;
+        animation-name: Marquee;
+    }
+
+    .jumbo_marquee_el>span>* {
+        margin-right: 56px;
+    }
+
+    .jumbo_marquee_el i {
+        font-style: normal;
+        font-size: 180px;
+    }
+
+    /* **************************************** *
+ * ANIMATION
+ * **************************************** */
+    @-webkit-keyframes Marquee {
+        from {
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+
+        to {
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+    }
+
+    @keyframes Marquee {
+        from {
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+
+        to {
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+    }
+</style>
+
+<body>
+    <div class="jumbo_marquee_wrap">
+        <div lang="en" class="main_products_typo jumbo_marquee" data-label="BEGINNING OF MEN’S MAKEUP">
+            <div class="jumbo_marquee_el"><span data-duration="27.568181818181817s"
+                    style="animation-duration: 27.5682s;"><i>BEGINNING OF MEN’S MAKEUP</i><i>BEGINNING OF MEN’S
+                        MAKEUP</i></span><span data-duration="27.568181818181817s"
+                    style="animation-duration: 27.5682s;"><i>BEGINNING OF MEN’S MAKEUP</i><i>BEGINNING OF MEN’S
+                        MAKEUP</i></span></div>
+        </div>
+    </div>
+</body>
+
+</html>
