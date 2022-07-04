@@ -9,4 +9,4 @@
 >![image](https://media3.giphy.com/media/JyRaTMfXJIrsHpZhJV/giphy.gif)
 
 3.[웹접근성] 키보드로 이동하는 gnb
-<a href="https://hoyashu.tistory.com/281">블로그 글 확인</a>
+<p><a href="https://hoyashu.tistory.com/281">블로그 글 확인</a></p>
