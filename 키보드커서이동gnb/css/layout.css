@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body {font-size: 16px}
+header {position:sticky; width:100%; height: 80px; top: 0; background: rgba(28,28,30,.8); z-index: 100}
+header div {position: relative; width: 1200px; margin: 0 auto; font-family: 'NanumSquare', sans-serif}
+header div h1 {position: absolute; top: 5px; left: 10px; width: 210px; height: 70px; text-indent: -9000px; background-image: url("../images/logo_gunpo.png")}
+header div h1 a {display: block; width: inherit; height: inherit}
+header div nav {position:absolute; top: 25px; left: 25%; width: 70%; display: flex; justify-content: flex-start; z-index: 50}
+header div nav dl {position: relative; min-width: 160px; line-height: 30px; text-align: center}
+header div nav dl dt {font-size: 1.2em; height: 55px; line-height: 35px;}
+header div nav dl dt a { color: #fff}
+header div nav dl dt a:hover {color: #33d7de}
+header div nav dl dd {display: none; padding:10px 0; border-radius:0 0 10px 10px; border-top: none; background: rgba(28,28,30,.8)}
+header div nav dl dd a {display: block; margin-bottom: 10px; white-space: nowrap; color: #fff;}
+header div nav dl dd a:hover {color: #33d7de}
+header div nav dl:hover dt {color: #33d7de}
+header div nav dl:hover dd{display: block}
+header div nav dl:focus-within dd{display: block}
+header div nav > ul {position: relative; display: flex; align-items:flex-start; padding-left: 50px}
+header div nav > ul li {margin-right: 30px; line-height: 30px}
+header div nav > ul li a {display:block; padding:0 5px; white-space: nowrap; color: #fff; background: #2f2f32}
+header div nav > ul li a:hover {color: #fff}
